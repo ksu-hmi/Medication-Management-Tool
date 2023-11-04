@@ -10,7 +10,7 @@ A personal management tool that allows users to input prescription details, and 
 - Store important information about your healthcare providers and pharmacies.
 
 ## License
-This project is licensed under the terms of the MIT license
+This project is licensed under the terms of the MIT license. Click [MIT](https://github.com/ksu-hmi/Medication-Management-Tool/blob/main/LICENSE) for further details.
 
 ## Contributors
 - Calise Hammonds (https://github.com/calisehammonds)
