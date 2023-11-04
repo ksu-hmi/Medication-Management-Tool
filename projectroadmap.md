@@ -1,14 +1,14 @@
 # Sprint 1
 
-- [x] Choose project topic - Calise
-- [x] Create individual Github accounts and join KSU-HMI class organization - ALL
-- [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role - Ann
-- [x] Create a readme.md file and commit any appropriate changes - Bunmi
-- [x] Update readme.md file with project description and goals - Bunmi and Calise
-- [x] Create projectroadmap.md file - Ann
+- [x] Choose project topic (Calise)
+- [x] Create individual Github accounts and join KSU-HMI class organization (ALL)
+- [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role (Ann)
+- [x] Create a readme.md file and commit any appropriate changes (Bunmi)
+- [x] Update readme.md file with project description and goals (Bunmi, Calise)
+- [x] Create projectroadmap.md file (Ann)
 - [ ] Explore project-related Python codes and ensure they run properly
-- [x] Clone an existing repository to the team page - Calise
-- [x] Update tasks for each sprint on the projectroadmad.md file - Ann and Calise
+- [x] Clone an existing repository to the team page (Calise)
+- [x] Update tasks for each sprint on the projectroadmad.md file (Ann, Calise)
 
 
 # Sprint 2
