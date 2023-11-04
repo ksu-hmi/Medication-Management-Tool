@@ -5,6 +5,7 @@
 - [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role
 - [ ] Create a readme.md file and commit any appropriate changes
 - [ ] Explore project-related Python codes and ensure they run properly
+- [ ] Clone an existing repository to the team page
 
 
 # Sprint 2
