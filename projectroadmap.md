@@ -1,9 +1,10 @@
 # Sprint 1
 
-- [x] Choose project topic
-- [x] Create individual Github accounts and join KSU-HMI class organization
-- [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role
-- [ ] Create a readme.md file and commit any appropriate changes
+- [x] Choose project topic - Calise
+- [x] Create individual Github accounts and join KSU-HMI class organization - ALL
+- [x] Create a code repository in KSU-HMI organization and ensure each member has 'Admin' role - Ann
+- [x] Create a readme.md file and commit any appropriate changes - Bunmi
+- [x] Update readme.md file with project description and goals - Bunmi and Calise
 - [ ] Explore project-related Python codes and ensure they run properly
 - [x] Clone an existing repository to the team page
 
