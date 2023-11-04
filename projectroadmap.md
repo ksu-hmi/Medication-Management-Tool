@@ -6,7 +6,7 @@
 - [x] Create a readme.md file and commit any appropriate changes - Bunmi
 - [x] Update readme.md file with project description and goals - Bunmi and Calise
 - [ ] Explore project-related Python codes and ensure they run properly
-- [x] Clone an existing repository to the team page
+- [x] Clone an existing repository to the team page - Calise
 
 
 # Sprint 2
