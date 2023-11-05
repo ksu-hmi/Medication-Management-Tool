@@ -9,7 +9,9 @@
 - [ ] Explore project-related Python codes and ensure they run properly
 - [x] Clone an existing repository to the team page (Calise)
 - [x] Update tasks for each sprint on the projectroadmad.md file (Ann, Calise)
-
+      
+#### Respositories:
+* https://github.com/ByrneThomas/Medication_-Reminder_-For_The-_Elderly.git - This is a related repository that may be utilized as a base code. It provides some fundamental and basic codes resulting in outputs similar to some of the key features of our project.
 
 # Sprint 2
 
