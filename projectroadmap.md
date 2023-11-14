@@ -17,6 +17,7 @@
 
 - [ ] Make updates and commit changes via the appropriate Github organization
 - [ ] Change the coding for style in the base code to make it unique to our app
+- [ ] Add code for a notes tab for users tp store healthcare provider and pharmacy related information
 - [ ] Each member must commit changes for at least 6 codes that are of significant sizes
 - [ ] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period
 
