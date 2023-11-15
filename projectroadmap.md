@@ -12,7 +12,8 @@
       
 #### Respositories:
 * https://github.com/ByrneThomas/Medication_-Reminder_-For_The-_Elderly.git - This is a related repository that may be utilized as a base code. It provides some fundamental and basic codes resulting in outputs similar to some of the key features of our project.
-
+* https://github.com/jlimcode/medipal - This repository has multiple codes for the different features of the project.
+  
 # Sprint 2
 
 - [ ] Make updates and commit changes via the appropriate Github organization
