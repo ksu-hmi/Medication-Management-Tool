@@ -16,7 +16,6 @@
 * More repositories:
 https://github.com/corneliouzbett/MedicationManager
 https://github.com/citiususc/calendula
-https://github.com/KayvanMazaheri/pillo
 
   
 # Sprint 2
