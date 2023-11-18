@@ -233,7 +233,7 @@ def actual_time():
 clock = Tk()
 clock.title("RemindRx")
 clock.geometry("400x200")
-time_format=Label(clock, text= "Enter time in 24 hour format!", fg="red",bg="black",font="Arial").place(x=60,y=120)
+time_format=Label(clock, text= "Enter time in 24 hour format!", fg="white",bg="purple",font="Arial").place(x=60,y=120)
 addTime = Label(clock,text = "Hour  Min   Sec",font=60).place(x = 110)
 setYourAlarm = Label(clock,text = "Remember to take your med",fg="blue",relief = "solid",font=("Helevetica",7,"bold")).place(x=0, y=29)
 # The Variables we require to set the alarm(initialization):
