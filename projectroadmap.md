@@ -27,6 +27,7 @@ https://github.com/PatchMixolydic/PillTracker
 - [x] Add code for viewing saved notes in the app (Calise)
 - [x] Each member must commit changes for at least 6 codes that are of significant sizes (ALL)
 - [x] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period (ALL)
+- [ ] Change the back ground and fore ground color scheme for the clock
 
 
 # Sprint 3
