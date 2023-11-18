@@ -118,7 +118,9 @@ def print_menu():
             2. Delete A Medication
             3. Review Your Medication List
             4. Set an Alarm for Medication
-            5. Exit
+            5. Create A Note
+            6. View Saved Notes
+            7. Exit
             """)
 
 print_menu()
@@ -128,7 +130,7 @@ choice = input("Select the menu item that you want edit [1-5]: ")
 choice = int(choice)
 medication_name=[]
 
-while choice != 5:
+while choice != 7:
     if choice == 1:
         med_add = input("Enter the medication Name to add to your list: ")
         medication_name.append(med_add)
@@ -150,7 +152,8 @@ while choice != 5:
 
         alarm_HH = input("Enter the hour you want to take the medication - in 24 hour format: ")
         alarm_MM = input("Enter the minute you want to take the medication: ")
-
+    elif choice == 5:
+    elif choice == 6:
 
 print(medication_name)
 
