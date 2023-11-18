@@ -130,6 +130,16 @@ choice = input("Select the menu item that you want edit [1-5]: ")
 choice = int(choice)
 medication_name=[]
 
+# Creating Notes Window
+# Create the main window
+window = tk.Tk()
+window.title("Note Taking")
+window.geometry("400x300")
+
+# Create a text box
+note_entry = tk.Text(window)
+note_entry.pack()
+
 while choice != 7:
     if choice == 1:
         med_add = input("Enter the medication Name to add to your list: ")
@@ -153,6 +163,9 @@ while choice != 7:
         alarm_HH = input("Enter the hour you want to take the medication - in 24 hour format: ")
         alarm_MM = input("Enter the minute you want to take the medication: ")
     elif choice == 5:
+        def notes_window():
+            window.mainloop()
+        notes_window()
     elif choice == 6:
 
 print(medication_name)
