@@ -11,7 +11,8 @@ def set_reminder(name, medication, dosage, reminder_time):
     print(f"\nReminder set for {reminder_time.strftime('%H:%M')}:")
     print(f"Hello, {name}! Don't forget to take your {medication} ({dosage}).")
 
-# Base code from found repository to build upon (Med Mgmt Tool)
+# Medication Management Tool
+# Base code from found repository to build upon 
 import datetime, os, sys, threading, yaml
 from gi.repository import Gtk
 import BuilderObject, DatePicker, PillEdit, TemplateObjects
