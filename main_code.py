@@ -140,6 +140,19 @@ window.geometry("400x300")
 note_entry = tk.Text(window)
 note_entry.pack()
 
+# Create a save button and database integration
+def save_note():
+   note = note_entry.get("1.0", tk.END)
+   conn = sqlite3.connect("notes.db")
+   cursor = conn.cursor()
+   cursor.execute("CREATE TABLE IF NOT EXISTS notes (id INTEGER PRIMARY KEY AUTOINCREMENT, content TEXT)")
+   cursor.execute("INSERT INTO notes (content) VALUES (?)", (note,))
+   conn.commit()
+   conn.close()
+
+save_button = tk.Button(window, text="Save Note", command=save_note)
+save_button.pack()
+
 while choice != 7:
     if choice == 1:
         med_add = input("Enter the medication Name to add to your list: ")
