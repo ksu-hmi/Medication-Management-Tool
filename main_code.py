@@ -54,11 +54,11 @@ def checkPassword(password):
         print("You need a capital letter in your password.")
         return False
     else:
-        # All good
-        print("All good")
+        # Valid Password
+        print("Password is Valid")
         return True
 
-# Promt user to enter valid password
+# Prompt user to enter valid password
 passwordValid = False
 while not passwordValid:
     create_password = input( "Create your password:\n (Password must contain at least 8 characters, one number,\n one capital letter, and one lowercase letter)")
