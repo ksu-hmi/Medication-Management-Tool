@@ -178,9 +178,10 @@ while choice != 7:
         break
     elif choice == 4:
         print ("Set an Alarm for Medication")
-
         alarm_HH = input("Enter the hour you want to take the medication - in 24 hour format: ")
         alarm_MM = input("Enter the minute you want to take the medication: ")
+        print('Time entered (24 hour format): ', alarm_HH + ':' + alarm_MM)
+        break #Added to end the loop of inputing alarm details repeatedly.
     elif choice == 5:
         def notes_window():
             # Runs note-taking window application
