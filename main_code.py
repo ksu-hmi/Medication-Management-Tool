@@ -13,8 +13,8 @@ def set_reminder(name, medication, dosage, reminder_time):
 
 # Medication Management Tool
 # Base code from found repository to build upon 
-~
-~
+
+
 # Prescription Reminder
 
 #Importing all the necessary libraries:
@@ -198,11 +198,9 @@ secTime = Entry(clock,textvariable = sec,bg = "pink",width = 15).place(x=200,y=3
 submit = Button(clock,text = "Set Alarm",fg="red",width = 10,command = actual_time).place(x =110,y=70)
 clock.mainloop()
 #Execution of the window.
-~
-~
-~
-~
-~
+
+
+
 # Prescription Refill Reminder
 import datetime
 import decimal
