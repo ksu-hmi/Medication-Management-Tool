@@ -13,9 +13,10 @@ def set_reminder(name, medication, dosage, reminder_time):
 
 # Medication Management Tool
 # Base code from found repository to build upon 
+~
+~
 # Prescription Reminder
-~
-~
+
 #Importing all the necessary libraries:
 from tkinter import *
 import datetime
