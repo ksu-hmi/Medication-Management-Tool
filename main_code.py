@@ -140,6 +140,25 @@ def save_note():
 save_button = tk.Button(window, text="Save Note", command=save_note)
 save_button.pack()
 
+#create view notes database integration
+ def view_notes():
+    conn = sqlite3.connect("notes.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM notes")
+    notes = cursor.fetchall()
+    conn.close()
+   
+    view_window = tk.Toplevel(window)
+    view_window.title("View Notes")
+    view_text = tk.Text(view_window)
+        for note in notes:
+            view_text.insert(tk.END, note[1] + "\n")
+    view_text.pack()
+
+# Creating button for viewing notes
+view_button = tk.Button(window, text="View Notes", command=view_notes)
+view_button.pack()
+
 while choice != 7:
     if choice == 1:
         med_add = input("Enter the medication Name to add to your list: ")
@@ -168,24 +187,14 @@ while choice != 7:
             window.mainloop()
         notes_window()
     elif choice == 6:
-        def view_notes():
-            conn = sqlite3.connect("notes.db")
-            cursor = conn.cursor()
-            cursor.execute("SELECT * FROM notes")
-            notes = cursor.fetchall()
-            conn.close()
-   
-            view_window = tk.Toplevel(window)
-            view_window.title("View Notes")
-            view_text = tk.Text(view_window)
-            for note in notes:
-                view_text.insert(tk.END, note[1] + "\n")
-            view_text.pack()
-        view_notes()
-
-# Creating button for viewing notes
-view_button = tk.Button(window, text="View Notes", command=view_notes)
-view_button.pack()
+        conn = sqlite3.connect('notes.db')
+        curr = conn.cursor()
+        curr.execute("SELECT * FROM notes")
+        # Print results
+        for note in curr:
+            print(note)
+            break
+        conn.close()
 
 print(medication_name)
 
