@@ -19,7 +19,7 @@ import sqlite3
 
 
 # Log into the app
-print ("RemindRx, your guide to better health")
+print ("Pocket Pill, your guide to better health")
 
 print("Enter Email address(Username): ")
 email_address = input()
@@ -97,7 +97,7 @@ while True:
 
 def print_menu():
     print()
-    print("Welcome to RemindRx! Press enter to select option")
+    print("Welcome to Pocket Pill! Press enter to select option")
     print()
 
     choice = input("""
@@ -218,7 +218,7 @@ def actual_time():
    
 # Create GUI in tinker
 clock = Tk()
-clock.title("RemindRx")
+clock.title("Pocket Pill")
 clock.geometry("400x200")
 # smcfar18-updated color scheme
 time_format=Label(clock, text= "Enter time in 24 hour format!", fg="white",bg="purple",font="Arial").place(x=60,y=120)
