@@ -177,9 +177,28 @@ while choice != 7:
         alarm_MM = input("Enter the minute you want to take the medication: ")
     elif choice == 5:
         def notes_window():
+            # Runs note-taking window application
             window.mainloop()
         notes_window()
     elif choice == 6:
+        def view_notes():
+            conn = sqlite3.connect("notes.db")
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM notes")
+            notes = cursor.fetchall()
+            conn.close()
+   
+            view_window = tk.Toplevel(window)
+            view_window.title("View Notes")
+            view_text = tk.Text(view_window)
+            for note in notes:
+                view_text.insert(tk.END, note[1] + "\n")
+            view_text.pack()
+        view_notes()
+
+# Creating button for viewing notes
+view_button = tk.Button(window, text="View Notes", command=view_notes)
+view_button.pack()
 
 print(medication_name)
 
