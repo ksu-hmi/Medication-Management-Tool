@@ -21,13 +21,12 @@ https://github.com/PatchMixolydic/PillTracker
 # Sprint 2
 
 - [x] Make updates and commit changes via the appropriate Github organization (ALL)
-- [ ] Change the coding for style in the base code to make it unique to our app
-- [ ] Change the name of the app in the base code
+- [x] Change the name of the app in the base code (Bunmi)
 - [x] Add code for a notes tab for users to store healthcare provider and pharmacy-related information (Calise)
 - [x] Add code for viewing saved notes in the app (Calise)
 - [x] Each member must commit changes for at least 6 codes that are of significant sizes (ALL)
 - [x] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period (ALL)
-- [x] Change the back ground and fore ground color scheme for the clock
+- [x] Change the back ground and fore ground color scheme for the clock (Shanil)
 
 
 # Sprint 3
