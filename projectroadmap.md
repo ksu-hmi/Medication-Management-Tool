@@ -24,6 +24,7 @@ https://github.com/PatchMixolydic/PillTracker
 - [ ] Change the coding for style in the base code to make it unique to our app
 - [ ] Change the name of the app in the base code
 - [ ] Add code for a notes tab for users to store healthcare provider and pharmacy-related information
+- [ ] Add code for viewing saved notes in the app
 - [ ] Each member must commit changes for at least 6 codes that are of significant sizes
 - [ ] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period
 
