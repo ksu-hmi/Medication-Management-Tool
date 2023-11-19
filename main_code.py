@@ -197,6 +197,18 @@ while choice != 7:
                 print(reminder_time)
                 break
 
+        #Calculating differences in time (now - reminder time) and setting reminder conditions for medication intake
+        current_datetime = datetime.datetime.now()
+        target_datetime = datetime.datetime(current_datetime.year, current_datetime.month, current_datetime.day, reminder_time.hour, reminder_time.minute)
+        time_difference = target_datetime - datetime.datetime.now()
+
+        if time_difference.total_seconds() > 0:
+            print("Reminder to take medication set for {reminder_time.strftime('%H:%M')}")
+            time.sleep(time_difference.total_seconds())
+            print("Time for your medication!")
+            winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
+
+
     elif choice == 5:
         def notes_window():
             # Runs note-taking window application
