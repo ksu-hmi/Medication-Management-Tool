@@ -12,11 +12,10 @@ import sys
 import signal
 import os
 import webbrowser
-import time
 import re
 import tkinter as tk
 import sqlite3
-import winsound #A module with a simple interface to play sound effects (e.g. alert sounds). Executes line 212.
+import winsound #A module with a simple interface to play sound effects (e.g. alert sounds). Executes line 209 and 249.
 
 # Log into the app
 print ("Pocket Pill, your guide to better health")
@@ -113,7 +112,7 @@ def print_menu():
 print_menu()
 
 
-choice = input("Select the menu item that you want edit [1-5]: ")
+choice = input("Select the menu item that you want edit [1-7]: ")
 choice = int(choice)
 medication_name=[]
 
@@ -141,7 +140,7 @@ save_button = tk.Button(window, text="Save Note", command=save_note)
 save_button.pack()
 
 #create view notes database integration
- def view_notes():
+def view_notes():
     conn = sqlite3.connect("notes.db")
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM notes")
@@ -151,8 +150,8 @@ save_button.pack()
     view_window = tk.Toplevel(window)
     view_window.title("View Notes")
     view_text = tk.Text(view_window)
-        for note in notes:
-            view_text.insert(tk.END, note[1] + "\n")
+    for note in notes:
+        view_text.insert(tk.END, note[1] + "\n")
     view_text.pack()
 
 # Creating button for viewing notes
@@ -174,19 +173,17 @@ while choice != 7:
         medication_name.remove(med_remove)
         print("Updated medication list: ", medication_name)
         continue
+        
     elif choice == 3:
         print ("Review Your Medication List")
         print("Current medication list: ", "\n", medication_name)
         break
+        
     elif choice == 4:
         # Defining and printing variables
-        medication_name = input('input med')
-        dosage = input('input dos')
-        directions = input('input dir')
-
-        print('Medication Name:', medication_name)
-        print('Dosage:', dosage)
-        print('Directions:', directions)
+        medication_name = input('Enter medication name for reminder: ')
+        dosage = input('Enter medication dosage')
+        directions = input('Enter directions')
 
         while True:         #Creating a function to loop and gather appropriate user input
             time_str = input("Enter reminder time (HH:MM): ")
@@ -203,9 +200,12 @@ while choice != 7:
         time_difference = target_datetime - datetime.datetime.now()
 
         if time_difference.total_seconds() > 0:
-            print("Reminder to take medication set for {reminder_time.strftime('%H:%M')}")
+            print("Reminder to take medication set for", time_str)
             time.sleep(time_difference.total_seconds())
             print("Time for your medication!")
+            print('Medication Name:', medication_name)
+            print('Dosage:', dosage)
+            print('Directions:', directions)
             winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
 
 
