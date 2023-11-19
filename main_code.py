@@ -162,15 +162,11 @@ view_button.pack()
 while choice != 7:
     if choice == 1:
         # Defining and appending variables
-        medication_name = input('Enter the name of your medication: ')
-        dosage = input('Enter the dosage of your medication: ')
-        directions = input('Enter directions for your medication intake: ')
-        
-        medication_names.append(medication_name)
-
-        print('Medication Name:', medication_name)
-        print('Dosage:', dosage)
-        print('Directions:', directions)
+        med_add = input("Enter the medication Name to add to your list: ")
+        medication_name.append(med_add)
+        print("Updated Medication List: ", medication_name) 
+        med_direction = input()
+        break
 
     elif choice == 2:
         print ("Delete A Medication")
