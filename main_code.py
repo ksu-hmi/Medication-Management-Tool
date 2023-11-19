@@ -188,6 +188,14 @@ while choice != 7:
         print('Dosage:', dosage)
         print('Directions:', directions)
 
+        while True:         #Creating a function to loop and gather appropriate user input
+            time_str = input("Enter reminder time (HH:MM): ")
+            if ':' in time_str == False:
+                print("Invalid time format. Please use HH:MM.")
+            else:
+                reminder_time = datetime.datetime.strptime(time_str, "%H:%M")
+                print(reminder_time)
+                break
 
     elif choice == 5:
         def notes_window():
