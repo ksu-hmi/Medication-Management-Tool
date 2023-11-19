@@ -23,6 +23,7 @@ https://github.com/PatchMixolydic/PillTracker
 - [x] Make updates and commit changes via the appropriate Github organization (ALL)
 - [x] Change the name of the app in the base code (Bunmi)
 - [x] Add code for a notes tab for users to store healthcare provider and pharmacy-related information (Calise)
+- [x] Correctly update the section that sets and alerts reminders (Ann)
 - [x] Add code for viewing saved notes in the app (Calise)
 - [x] Each member must commit changes for at least 6 codes that are of significant sizes (ALL)
 - [x] Update the tasklists in the projectroadmap.md file by completing and/or adding emerging tasks throughout the project time period (ALL)
