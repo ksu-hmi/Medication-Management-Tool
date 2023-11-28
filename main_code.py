@@ -182,8 +182,8 @@ while choice != 7:
     elif choice == 4:
         # Defining and printing variables
         medication_name = input('Enter medication name for reminder: ')
-        dosage = input('Enter medication dosage')
-        directions = input('Enter directions')
+        dosage = input('Enter medication dosage: ')
+        directions = input('Enter directions: ')
 
         while True:         #Creating a function to loop and gather appropriate user input
             time_str = input("Enter reminder time (HH:MM): ")
