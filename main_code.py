@@ -209,12 +209,9 @@ while choice != 7:
             winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
 
 
-<<<<<<< Updated upstream
-=======
         alarm_HH = input("Enter the time you want to take the medication - in 24 hour format: ")
         break
     
->>>>>>> Stashed changes
     elif choice == 5:
         def notes_window():
             # Runs note-taking window application
