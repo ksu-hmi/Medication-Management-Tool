@@ -60,7 +60,7 @@ def checkPassword(password):
 # Prompt user to enter valid password
 passwordValid = False
 while not passwordValid:
-    create_password = input( "Create your password:\n (Password must contain at least 8 characters, one number,\n one capital letter, and one lowercase letter)")
+    create_password = input( "Create your password:\n (Password must contain at least 8 characters, one number,\n one capital letter, and one lowercase letter): ")
     passwordValid = checkPassword(create_password)
 
 print("Enter your first name: ")
@@ -207,10 +207,7 @@ while choice != 7:
             print('Dosage:', dosage)
             print('Directions:', directions)
             winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
-
-
-        alarm_HH = input("Enter the time you want to take the medication - in 24 hour format: ")
-        break
+            break
     
     elif choice == 5:
         def notes_window():
@@ -227,17 +224,7 @@ while choice != 7:
             break
         conn.close()
 
-print(medication_name)
 
-print("Enter the directions for medication : ")
-med_direction = input()
-
-print(med_direction)
-#need input format for the time so end user will know how to enter it!
-print("Enter time of day medication is to be taken : ") 
-time_take=input('Please input the time for the alarm in format HHMM: \n ')
-print(time_take)
-print("Hello", first_name,"!", "Remember to take", med_direction, "at", time_take)
 
 def alarm(set_alarm_timer):
     while True:
