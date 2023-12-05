@@ -32,7 +32,8 @@ https://github.com/PatchMixolydic/PillTracker
 
 # Sprint 3
 
-- [ ] Update and refine the project codes as in Sprint #2 until the end-product application runs effectively
-- [ ] Create a single PowerPoint slide introducing the project
-- [ ] Prepare for Final presentation
-- [ ] Schedule time with the team to record the Final presentation on Teams
+- [x] Update and refine the project codes as in Sprint #2 until the end-product application runs effectively (ALL)
+- [x] Create a single PowerPoint slide introducing the project 
+- [x] Prepare for Final presentation (ALL)
+- [x] Schedule time with the team to record the Final presentation on Teams (Calise)
+- [x] Create Powerpoint slides for presentation (ALL)
